@@ -18,7 +18,7 @@
                                 <p class="text-danger"><?=$errors['email'] ?? ''?></p>
                             </div>
                             <div class="form-group">
-                                <label for="summ" class="sr-only">Сумма</label>
+                                <label for="summ" class="sr-only">Sum</label>
                                 <input type="number" name="summ" id="summ" class="form-control" placeholder="5000" value="<?=$_POST['summ'] ?? ''?>">
                                 <p class="text-danger"><?=$errors['summ'] ?? ''?></p>
                             </div>
