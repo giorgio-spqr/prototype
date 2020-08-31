@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files": [
+            "core/helpers.php"
+        ]
+    },
+    "require": {
+        "bunny/bunny": "^0.4.2",
+        "ezsql/ezsql": "^4.0"
+    }
+}
